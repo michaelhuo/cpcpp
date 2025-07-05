@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# C++ compiled output
+*.o
+*.out
+*.exe
+*.app
+*.dSYM/
+
+# Build directories
+build/
+bin/
+obj/
+
+# Dependency directories
+lib/
+libs/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+# Git
+*.orig
+
+# Other
+*.log
+*.bak
+*.tmp
+
+# Ignore dependency lock files (if using package managers)
+conan.lock
+vcpkg.json
