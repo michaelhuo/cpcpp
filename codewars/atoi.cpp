@@ -1,4 +1,6 @@
 #include <string>
+#include <climits>
+#include <cctype>
 #include <iostream>
 
 int string_to_number(const std::string& s) {
